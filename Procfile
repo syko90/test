@@ -1,1 +1,1 @@
-web: gunicorn psychotechblog.wsgi
+web:gunicorn psychotechblog.wsgi
