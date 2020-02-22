@@ -1,0 +1,15 @@
+{% extends 'baza.html' %}
+
+{% block content %}
+
+<div class="wpis-detail">
+    <div class="wpis">
+        <img src="{{ wpis.thumb.url }}" />
+        <h2> {{ wpis.tittle }} </h2>
+        <p> {{wpis.body}} </p>
+        <p> {{ wpis.date }}</p>
+    </div>
+
+</div>
+
+{% endblock %}

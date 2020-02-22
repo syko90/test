@@ -1,0 +1,15 @@
+{%extends 'baza.html'%}
+
+
+{% block content %}
+    <div class="nowy-wpis">
+        <h2> Utwóz nowy artykuł </h2>
+        <form class="site-form" action="{% url 'wpisy:nowy' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}    
+            {{ form }}
+            <input type="submit" value="Utwórz">
+        </form>
+
+    </div>
+
+{% endblock %}
