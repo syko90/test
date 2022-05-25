@@ -23,7 +23,7 @@ opencv-python==4.1.1.26
 Pillow==7.0.0
 ppi==0.0.4
 psycopg2==2.8.4
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.4.1
 pytz==2019.3
 requests==2.22.0
